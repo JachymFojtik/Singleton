@@ -28,11 +28,11 @@ namespace Singleton
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             tbView.Clear();
-            SDictionary MyDic = SDictionary.Instance;
-            MyDic.View("Pepa", tbView);
-            MyDic.View("Adam", tbView);
-            MyDic.View("Petr", tbView);
-            MyDic.View("Čeněk", tbView);
+            SDictionary Dict1 = SDictionary.Instance;
+            Dict1.View("Pepa", tbView);
+            Dict1.View("Adam", tbView);
+            Dict1.View("Petr", tbView);
+            Dict1.View("Čeněk", tbView);
         }
 
     }
